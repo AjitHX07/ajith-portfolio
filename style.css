@@ -314,7 +314,7 @@ article .icon {
 /* projects */
 #projects {
   position: relative;
-  top: 90px;
+  top: 180px;
 }
 .color-container {
   border-color: rgb(163, 163, 163);
@@ -352,8 +352,11 @@ pro.project-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 97vh;
+  position: relative;
+  top: 75px;
 }
+
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
