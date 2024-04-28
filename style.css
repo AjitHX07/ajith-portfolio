@@ -347,6 +347,11 @@ pro.project-btn {
   object-position: 0px -73px;
 }
 
+#project-img-1-2 {
+  width: 237px;
+  height: 245px;
+}
+
 /* Contact */
 #contact {
   display: flex;
