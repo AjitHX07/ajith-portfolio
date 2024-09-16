@@ -254,9 +254,26 @@ section {
   border-radius: 2rem;
 }
 
+.contact-btn-top {
+  font-weight: 600;
+  color: white;
+  background: none;
+  border-radius: 23px;
+  width: 8rem;
+  height: 50px;
+  margin-top: 41px;
+  border: rgb(162, 162, 164) 0.1rem solid;
+}
+
+.contact-btn-top:hover {
+  cursor: pointer;
+}
+
 .btn-color-1,
 .btn-color-2 {
   border: rgb(162, 162, 164) 0.1rem solid;
+  background: rgb(60, 61, 72);
+  color: rgb(229, 228, 228);
 }
 
 .btn-color-1:hover,
@@ -277,6 +294,7 @@ section {
 .btn-color-2 {
   background: none;
   color: aliceblue;
+  margin-top: 40px;
 }
 
 .btn-color-2:hover {
@@ -306,7 +324,8 @@ section {
 }
 
 .about-para {
-  line-height: 26px;
+  line-height: 28px;
+  font-size: 19px;
 
 }
 
@@ -361,8 +380,18 @@ section {
 }
 
 .exps {
-  height: 426px;
+  height: 280px;
   width: 200px;
+  color: aliceblue;
+
+}
+
+#proj-btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 0.7rem;
+  width: 6rem;
+  border-radius: 7rem;
 }
 
 .experience-detail-container {
@@ -398,8 +427,15 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+
+  box-shadow: 0 8px 32px 0 rgba(59, 59, 59, 0.37);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #e7e4e4;
+  background: rgb(35, 35, 42);
+  background: linear-gradient(90deg, rgb(42, 42, 50) 0%, rgb(30, 28, 36) 40%, rgba(24, 23, 30, 0.9) 90%);
 }
 
 .project-img {
@@ -408,13 +444,21 @@ article .icon {
   height: 90%;
 }
 
+
+.project-des {
+  color: #b5b5bf;
+}
+
 .project-title {
   margin: 1rem;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 1.3rem;
+  text-underline-offset: 0.3em;
+  text-decoration: underline;
 }
 
 pro.project-btn {
+  margin-top: 10px;
   color: rgb(255, 255, 255);
   border-color: rgb(202, 203, 216);
 }
@@ -459,6 +503,10 @@ pro.project-btn {
   padding: 0.5rem;
 }
 
+.btn-color-1 {
+  padding: 1rem;
+}
+
 .contact-info-container {
   display: flex;
   align-items: center;
@@ -478,6 +526,16 @@ pro.project-btn {
 
 .email-icon {
   height: 2.5rem;
+}
+
+.contact-p {
+  color: #20232b;
+}
+
+.footer-ruler {
+  width: 50%;
+  margin-left: 25%;
+  background-color: aliceblue;
 }
 
 /* FOOTER */
