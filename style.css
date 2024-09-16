@@ -204,6 +204,7 @@ section {
 }
 
 .section_text_p1 {
+  margin-top: 10px;
   text-align: center;
   /* font-size: 1.6rem; */
 }
@@ -369,7 +370,9 @@ section {
 
 #experince {
   position: relative;
-  top: 114px;
+  top: 300px;
+
+
 }
 
 .experience-sub-titile {
@@ -398,6 +401,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 42px;
 }
 
 .artile-container {
@@ -487,9 +491,10 @@ pro.project-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 97vh;
+  height: 100vh;
   position: relative;
-  top: 75px;
+  top: 193px;
+
 }
 
 .contact-info-upper-container {
